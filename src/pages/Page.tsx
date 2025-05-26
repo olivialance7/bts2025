@@ -1,6 +1,5 @@
-import { IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonTitle, IonToolbar,IonCard,IonCardHeader,IonCardContent,IonCardSubtitle,IonCardTitle } from '@ionic/react';
 import { useParams } from 'react-router';
-import ExploreContainer from '../components/ExploreContainer';
 import './Page.css';
 
 const Page: React.FC = () => {
@@ -35,7 +34,10 @@ return (
   <IonPage>
 
     <IonHeader>
-
+<div className= "ion-padding">
+  <h1>Welcome BTS 2025!</h1>
+  <p> This is your personalized page</p>
+</div>
       <IonToolbar>
 
         <IonButtons slot="start">
