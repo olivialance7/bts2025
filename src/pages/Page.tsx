@@ -36,7 +36,7 @@ return (
     <IonHeader>
 <div className= "ion-padding">
   <h1>Welcome BTS 2025!</h1>
-  <p> This is your personalized page</p>
+  <p> Hello everyone!! Thanks for coming</p>
 </div>
       <IonToolbar>
 
