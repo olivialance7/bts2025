@@ -35,7 +35,10 @@ return (
   <IonPage>
 
     <IonHeader>
-
+<div className= "ion-padding">
+  <h1>Welcome BTS 2025!</h1>
+  <p> This is your personalized page</p>
+</div>
       <IonToolbar>
 
         <IonButtons slot="start">
